@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MJTech - Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="navbar">
+    <div class="container nav-container">
+        <div class="logo">
+            <h1><span class="highlight">MJ</span>Tech</h1>
+            <span class="tagline">Digital &amp; Hardware Expert</span>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</header>
+
+<!-- ===== PAGE CONTACT ===== -->
+<section class="page-header" style="background: linear-gradient(135deg, #0d1b2a 0%, #1a2a3a 50%, #2c3e50 100%); padding: 140px 0 50px;">
+    <div class="container" data-aos="fade-up">
+        <h1 style="color: #ffffff;">Contactez-<span class="highlight">moi</span></h1>
+        <p style="color: #ffffff;">Un projet, une panne, une question ? Je suis là pour vous aider.</p>
+    </div>
+</section>
+
+<!-- ===== SECTION CONTACT ===== -->
+<section class="contact-modern">
+    <div class="container">
+        <div class="contact-wrapper">
+
+            <!-- ===== PARTIE GAUCHE : INFOS ===== -->
+            <div class="contact-info-modern" data-aos="fade-right">
+                <div class="info-header">
+                    
+                    <h2>Mes <span class="highlight">coordonnées</span></h2>
+                    <p>N'hésitez pas à me contacter par téléphone, email ou WhatsApp.</p>
+                </div>
+
+                <div class="info-items">
+                    <div class="info-item">
+                        <div class="info-icon phone"><i class="fas fa-phone"></i></div>
+                        <div class="info-text">
+                            <span class="info-label">Téléphone</span>
+                            <a href="tel:+2290148620025">+229 01 486 200 25</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon email"><i class="fas fa-envelope"></i></div>
+                        <div class="info-text">
+                            <span class="info-label">Email</span>
+                            <a href="mailto:moudjtech@gmail.com">moudjtech@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+                        <div class="info-text">
+                            <span class="info-label">WhatsApp</span>
+                            <a href="https://wa.me/2290148620025">+229 01 486 200 25</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon location"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-text">
+                            <span class="info-label">Localisation</span>
+                            <span>Bohicon, Bénin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-social-modern">
+                    <span>Suivez-moi</span>
+                    <div class="social-links">
+                        <a href="#" class="social-link fb"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link tw"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link ig"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link yt"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link tt"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== PARTIE DROITE : FORMULAIRE STYLÉ ===== -->
+            <div class="contact-form-modern" data-aos="fade-left">
+                <div class="form-header">
+                    <span class="form-badge">📝 Envoyer un message</span>
+                    <h2>Parlons de votre <span class="highlight">projet</span></h2>
+                    <p>Remplissez le formulaire ci-dessous.</p>
+                </div>
+
+                <form id="contactForm" class="modern-form">
+                    <!-- Champ Nom -->
+                    <div class="form-group-modern">
+                        <input type="text" id="name" required />
+                        <label for="name">Nom <span class="required">*</span></label>
+                        <span class="focus-border"></span>
+                    </div>
+
+                    <!-- Champ Email -->
+                    <div class="form-group-modern">
+                        <input type="email" id="email" required />
+                        <label for="email">Email <span class="required">*</span></label>
+                        <span class="focus-border"></span>
+                    </div>
+
+                    <!-- Champ Sujet -->
+                    <div class="form-group-modern">
+                        <input type="text" id="subject" required />
+                        <label for="subject">Sujet</label>
+                        <span class="focus-border"></span>
+                    </div>
+
+                    <!-- Champ Message -->
+                    <div class="form-group-modern">
+                        <textarea id="message" rows="4" required></textarea>
+                        <label for="message">Message <span class="required">*</span></label>
+                        <span class="focus-border"></span>
+                    </div>
+
+                    <button type="submit" class="btn-submit" style="margin-bottom: 10px;">
+                        Envoyer <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER CORRIGÉ (sans débordement) ===== -->
+<footer class="footer-dingue">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Col 1 : Brand -->
+            <div class="footer-col">
+                <h3><span class="highlight">MJ</span>Tech</h3>
+                <p>Expert en solutions digitales et hardware. Réparation, réseaux, IA, design et web.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <!-- Col 2 : Services -->
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html#phone"><i class="fas fa-chevron-right"></i> Réparation téléphone</a></li>
+                    <li><a href="services.html#pc"><i class="fas fa-chevron-right"></i> Maintenance PC</a></li>
+                    <li><a href="services.html#network"><i class="fas fa-chevron-right"></i> Réseaux &amp; Sécurité</a></li>
+                    <li><a href="services.html#ia"><i class="fas fa-chevron-right"></i> Accompagnement IA</a></li>
+                    <li><a href="services.html#design"><i class="fas fa-chevron-right"></i> Design &amp; Communication</a></li>
+                    <li><a href="services.html#web"><i class="fas fa-chevron-right"></i> Création de sites</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3 : Liens -->
+            <div class="footer-col">
+                <h4>Liens rapides</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                    <li><a href="portfolio.html"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                    <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4 : Contact -->
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-phone"></i> <a href="tel:+2290148620025">+229 01 486 200 25</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:moudjtech@gmail.com">moudjtech@gmail.com</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> Bohicon, Bénin</li>
+                    <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/+2290148620025">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 <strong>MJTech</strong> - Tous droits réservés. | Fait avec <i class="fas fa-heart"></i> par Moudjib</p>
+            <div class="footer-legal">
+                <a href="legal.html">Mentions légales</a>
+                <a href="privacy.html">Politique de confidentialité</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animations footer -->
+    <div class="footer-animations">
+        <span class="float-icon" style="--i:1"><i class="fas fa-microchip"></i></span>
+        <span class="float-icon" style="--i:2"><i class="fas fa-wifi"></i></span>
+        <span class="float-icon" style="--i:3"><i class="fas fa-robot"></i></span>
+        <span class="float-icon" style="--i:4"><i class="fas fa-code"></i></span>
+        <span class="float-icon" style="--i:5"><i class="fas fa-camera"></i></span>
+    </div>
+</footer>
+
+<!-- ===== BOUTONS FLOTTANTS ===== -->
+<div class="floating-buttons">
+    <a href="https://wa.me/+2290148620025?text=Bonjour%20MJTech" target="_blank" class="float-whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="mailto:moudjtech@gmail.com" class="float-email"><i class="fas fa-envelope"></i></a>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
